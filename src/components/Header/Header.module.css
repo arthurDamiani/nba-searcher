@@ -31,3 +31,19 @@
     transform: scale(1.1);
     transition: all .2s ease-in-out;
 }
+
+@media(max-width: 530px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .linksContainer {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 400px) {
+    .container {
+        padding: 1rem;
+    }
+}

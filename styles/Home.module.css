@@ -12,3 +12,21 @@
   gap: 1rem;
   grid-template-columns: 15rem 15rem 15rem 15rem;
 }
+
+@media(max-width: 1030px) {
+  .gridContainer {
+    grid-template-columns: 15rem 15rem 15rem;
+  }
+}
+
+@media(max-width: 770px) {
+  .gridContainer {
+    grid-template-columns: 15rem 15rem;
+  }
+}
+
+@media(max-width: 515px) {
+  .gridContainer {
+    grid-template-columns: 15rem;
+  }
+}
