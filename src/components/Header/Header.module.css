@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    background-color: #1d428a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+}
+
+.title {
+    align-self: center;
+}
+
+.linksContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link {
+    background-color: #fff;
+    color: #1d428a;
+    border-radius: 8px;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.link:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}

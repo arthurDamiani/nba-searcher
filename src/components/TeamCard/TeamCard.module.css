@@ -1,0 +1,18 @@
+.container {
+    width: 15rem;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+.noMargin {
+    margin-top: 0;
+}

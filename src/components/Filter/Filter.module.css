@@ -1,0 +1,14 @@
+.filter {
+    height: 2rem;
+    width: 10rem;
+    padding-left: 1rem;
+    margin: 1rem;
+    border-radius: 16px;
+    border: none;
+}
+
+.filter:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0 0 0 2px #1d428a;
+}
